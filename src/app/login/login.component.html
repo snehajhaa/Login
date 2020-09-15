@@ -1,0 +1,15 @@
+<div class="container">
+<div style="width: 100%;margin-top: 10%;">
+<div style="width: 200px; margin: auto;">
+<label for="uname"><b>Username</b>
+<input type="text" style="width: 100%;"  #u1  placeholder="Enter Username" name="uname" required><br/></label> 
+ <label for="psw"><b>Password</b></label>
+<input type="password" style="width: 100%;" #p2 placeholder="Enter Password" name="psw" required>
+    <br />
+<button (click)="check(u1.value, p2.value)" style="margin-left: auto;" >Login</button> 
+<br/>
+<span>{{ msg }}</span>
+ </div>
+</div>
+    
+    
